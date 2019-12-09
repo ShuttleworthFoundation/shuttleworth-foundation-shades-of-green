@@ -85,9 +85,9 @@ mathjax-enabled: false
 #            across books in this project.
 collections:
   docs:
-    output: true
+    output: false
   items:
-    output: true
+    output: false
 
 # --------------------------------------------
 # CHANGE THESE SETTINGS ONLY IF/WHEN NECESSARY
