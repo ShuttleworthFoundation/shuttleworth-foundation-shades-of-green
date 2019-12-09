@@ -39,27 +39,27 @@ project:
 
 works:
   - directory: "book"
-    title: "Template"
-    subtitle: ""
-    creator: "A. N. Author" # E.g. the author
+    title: "Shades of green"
+    subtitle: "Reimagining philanthropy"
+    creator: "The Shuttleworth Foundation, Adam Hyde, Chris McGivern, Helen Turvey, Jason Hudson, Jesse Von Doom, Karien Bezuidenhout, Kathi Fletcher, Sean Bonner" # E.g. the author
     contributor: "" # E.g. other contributors
-    subject: "Fiction" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
-    description: "The Electric Book's blank template." # E.g. the blurb
-    publisher: "EBW" # E.g. the publisher, imprint or brand name
-    publisher-url: ""
-    date: "2015-12-31" # YYYY-MM-DD e.g. publication date
-    modified: "2016-06-09" # YYYY-MM-DD e.g. date of last revision
-    type: "Novel" # e.g. Novel, Poetry, Memoir
-    identifier: "" # e.g. ISBN or UUID
+    subject: "Business writing, Philanthropy & Charity" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
+    description: "This book explores and documents the philosophy, motivation and learning behind the Shuttleworth Foundation and its Fellowship community." # E.g. the blurb
+    publisher: "The Shuttleworth Foundation" # E.g. the publisher, imprint or brand name
+    publisher-url: "https://www.shuttleworthfoundation.org/"
+    date: "" # YYYY-MM-DD e.g. publication date
+    modified: "" # YYYY-MM-DD e.g. date of last revision
+    type: "Non-fiction" # e.g. Novel, Poetry, Memoir
+    identifier: "978-1-694-49711-6" # e.g. ISBN or UUID
     source: "" # e.g. parent ISBN or ISTC
     language: "en" # use ISO 639-1, 639-2, or 639-3 codes (in that order of preference)
     relation: "" # e.g. other edition ISBN
     coverage: "" # e.g. geographic place or chronological time span
-    rights: "All rights reserved. No part of this book may be reproduced or transmitted in any form or by any electronic or mechanical means, including photocopying and recording, or any other information storage or retrieval system, without written permission from the publisher." # e.g. a copyright statement
+    rights: "Creative Commons Attribution-Share Alike License" # e.g. a copyright statement
     image: "cover.jpg"
     products: # Metadata for each product for this title (only use values that override parent metadata)
       print-pdf: 
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication or creation date
+        date: "" # YYYY-MM-DD e.g. publication or creation date
         format: "Print" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
@@ -81,7 +81,7 @@ works:
                 file: "02"
                 id: "example-id"
       web:
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
+        date: "" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital online" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
@@ -116,9 +116,9 @@ works:
         start-page: "0-3-contents" # At which file should users start reading?
         contents-page: "0-3-contents" # Your contents-page file, if you have one.
       epub:
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
+        date: "" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
-        identifier: "9780000000000" # e.g. ISBN or UUID
+        identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
         start-page: "0-3-contents"
         contents-page: "0-3-contents"
@@ -149,7 +149,7 @@ works:
                 file: "02"
                 id: "example-id"
       screen-pdf:
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
+        date: "" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
@@ -161,7 +161,7 @@ works:
           - "01"
           - "02"
       app:
-        date: "2016-05-07" # YYYY-MM-DD e.g. publication date or last revision
+        date: "" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital download" # e.g. Paperback, Digital download, Digital online
         identifier: "" # e.g. ISBN or UUID
         image: "cover.jpg"
