@@ -21,6 +21,11 @@
             &:nth-of-type(3) {
                 display: inline-block;
             }
+            // Make Part title black for when book title is hidden
+            // on smallish screens
+            &:nth-of-type(2) {
+                color: $black;
+            }
             // Hide slash after last breadcrumb
             &:nth-of-type(3)::after {
                 content: normal;
