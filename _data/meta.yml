@@ -5,21 +5,21 @@
 # Replace the values here with your project` information.
 project:
   # The name of the organisation or entity that owns this project
-  organisation: "Electric Book Works"
+  organisation: "Shuttleworth Foundation"
   # A live web address for the organisation
-  url: "http://electricbook.works/"
+  url: "http://shuttleworthfoundation.org"
   # The default contact email address
-  email: "support@electricbook.works"
+  email: "info@shuttleworthfoundation.org"
   # The name of the project of books in this folder.
-  name: "Electric Book"
+  name: "Shades of green"
   # A one-liner about this project. Useful for Open Graph metadata.
-  description: "The Electric Book template in action."
+  description: "The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same."
   # The logo of the organisation, saved web-ready in /assets
   logo: "publisher-logo.jpg"
   # An image in /assets that stands for the project
   image: "cover.jpg"
   # Credit line, by default in the footer, overidden in locales.yml
-  credit: "Built with the [Electric Book](http://electricbook.works)"
+  credit: ""
   # Primary language code for this project as a whole
   language: "en"
   # App bundle ID unique across all app stores
@@ -44,7 +44,8 @@ works:
     creator: "The Shuttleworth Foundation, Adam Hyde, Chris McGivern, Helen Turvey, Jason Hudson, Jesse Von Doom, Karien Bezuidenhout, Kathi Fletcher, Sean Bonner" # E.g. the author
     contributor: "" # E.g. other contributors
     subject: "Business writing, Philanthropy & Charity" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
-    description: "This book explores and documents the philosophy, motivation and learning behind the Shuttleworth Foundation and its Fellowship community." # E.g. the blurb
+    description: |
+      The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same. When the goal is to create something that is beneficial for the world, rather than beneficial for the market, everything gets reconsidered. This has become our way of life. Practising philanthropy as a vision, not an intervention, means we question every rule, examine every outcome and discard any process that no longer serves our core mission. We are the long game – looking beyond today’s politics and daily headlines and the technology trends of the moment to those things that are more fundamental, more systemic. Reactionary funding is shortsighted. We are interested in ripple effects that are felt for decades. These are building blocks, not photo ops. We refuse to shortchange our future. In practice this means we have moved away from giving grants and creating arbitrary metrics for change. We no longer accept project proposals, nor do we drive ideas internally. We have moved towards partnership; towards a shared vision for how change can be effected across domains. This book will explore these ideas and how we have applied them.
     publisher: "The Shuttleworth Foundation" # E.g. the publisher, imprint or brand name
     publisher-url: "https://www.shuttleworthfoundation.org/"
     date: "" # YYYY-MM-DD e.g. publication date
