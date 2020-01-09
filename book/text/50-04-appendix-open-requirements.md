@@ -8,7 +8,7 @@ The Open Requirements are an addendum to the fellowship agreement letter, ensuri
 
 ### Open requirements
 
-Being open about our work is vital for others to replicate them and benefit society. If we can shorten the time it takes a good idea to spread by living out loud, the results will speak for themselves. Everything we work on - from education to science to telecoms - demonstrates the power of openness, participation and creativity. We believe your work can help us build an open knowledge society. That is why we insist on open communications, open licenses, open source and open reporting.
+Being open about our work is vital for others to replicate them and benefit society. If we can shorten the time it takes a good idea to spread by living out loud, the results will speak for themselves. Everything we work on – from education to science to telecoms – demonstrates the power of openness, participation and creativity. We believe your work can help us build an open knowledge society. That is why we insist on open communications, open licenses, open source and open reporting.
 
 To help Fellows get their ideas out into the world, and realise the value of openness at the core of our theory of change, so Fellows and the people we support to work with Fellows release everything they make as an open resource. Resources are open resources when they are publicly available online for revision, translation, improvement and sharing under open licenses, open standards and in open formats, free of technical protection measures.
 
@@ -18,7 +18,7 @@ If you are a Fellow, then the Open Requirements apply to knowledge resources tha
 
 ### Open Content and Data
 
-You must make knowledge resources open as defined in the Open Definition (http://opendefinition.org/) “A piece of data or content is open if anyone is free to use, reuse, and redistribute it - subject only, at most, to the requirement to attribute and/or share-alike.” You must share data (http://opendefinition.org/licenses/\#Data) under Creative Commons 0 or another license or dedication that complies with the Open Definition (http://opendefinition.org/). You must share knowledge resources using a format that is platform independent, machine readable, editable and available to the public without restrictions that would impede the re-use of the information.
+You must make knowledge resources open as defined in the Open Definition (http://opendefinition.org/) “A piece of data or content is open if anyone is free to use, reuse, and redistribute it – subject only, at most, to the requirement to attribute and/or share-alike.” You must share data (http://opendefinition.org/licenses/\#Data) under Creative Commons 0 or another license or dedication that complies with the Open Definition (http://opendefinition.org/). You must share knowledge resources using a format that is platform independent, machine readable, editable and available to the public without restrictions that would impede the re-use of the information.
 
 ### Free and Open Source Software
 
