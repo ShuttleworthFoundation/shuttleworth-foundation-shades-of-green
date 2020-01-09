@@ -1,0 +1,95 @@
+{% capture this-feature-image %}
+
+{% include metadata %}
+
+{% comment %}
+Get the list of images, whether included as `image` or `images`
+and remove spaces that might be around commas.
+Put the comma-separated images into an array.
+Then get the total number of images in the array.
+{% endcomment %}
+{% capture image-list %}{{ include.image | remove: " " }}{% if include.image and include.images %},{% endif %}{{ include.images | remove: " " }}{% endcapture %}
+
+{% assign feature-images = image-list | split: "," %}
+{% assign number-of-images = feature-images | size %}
+
+{% comment %}
+Then create our feature-image div, using multiple images if necessary.
+We have to do funky remove: '<p>' | remove: '</p>' | strip_newlines
+because https://github.com/jekyll/jekyll/issues/2248.
+{% endcomment %}
+
+<div class="feature-image{% if include.class %} {{ include.class }}{% endif %}"{% if include.reference %} id="{{ include.reference | slugify }}"{% endif %}>
+
+    <div class="feature-image-body">
+
+        {% if include.image or include.images %}
+        <div class="feature-images contains-{{ number-of-images }}">
+
+            {%for image in feature-images %}
+
+                {% assign image-filetype = image | split: "." %}
+                {% assign image-without-filetype = image | replace: image-filetype[1], "" | replace: ".", "" %}
+
+                {% if include.link %}<a href="{{ include.link }}">{% endif %}
+
+                    {% if site.output == "web" %}
+
+                        <noscript>
+                            <img src="{{ images }}/{{ image }}"
+                                srcset="{{ images }}/{{ image-without-filetype }}-320.{{ image-filetype[1] }} 320w,
+                                        {{ images }}/{{ image-without-filetype }}-640.{{ image-filetype[1] }} 640w,
+                                        {{ images }}/{{ image-without-filetype }}-1024.{{ image-filetype[1] }} 1024w,
+                                        {{ images }}/{{ image-without-filetype }}.{{ image-filetype[1] }} 1280w"
+                                sizes="(min-width: 600px) 1300px, 100vw"
+                                alt="{% if include.title %}{{ include.title | markdownify | strip_html }}: {% endif %}{% if include.description %}{{ include.description | markdownify | strip_html }}{% else %}{{ include.caption | markdownify | strip_html }}{% endif %}"
+                                {% if include.image-height != nil %} class="height-{{ include.image-height }}"{% endif %} 
+                            />
+                        </noscript>
+
+                        <img data-src="{{ images }}/{{ image }}"
+                            data-srcset="{{ images }}/{{ image-without-filetype }}-320.{{ image-filetype[1] }} 320w,
+                                        {{ images }}/{{ image-without-filetype }}-640.{{ image-filetype[1] }} 640w,
+                                        {{ images }}/{{ image-without-filetype }}-1024.{{ image-filetype[1] }} 1024w,
+                                        {{ images }}/{{ image-without-filetype }}.{{ image-filetype[1] }} 1280w"
+                            sizes="(min-width: 600px) 1300px, 100vw"
+                            alt="{% if include.title %}{{ include.title | markdownify | strip_html }}: {% endif %}{% if include.description %}{{ include.description | markdownify | strip_html }}{% else %}{{ include.caption | markdownify | strip_html }}{% endif %}"
+                            class="{% if image contains '.svg' %}inject-svg{% endif %}{% if include.image-height != nil %} height-{{ include.image-height }}{% endif %}"
+                        />
+
+                    {% else %}
+
+                        <img src="{{ images }}/{{ image }}"
+                            alt="{% capture feature-image-alt-text %}{% if include.title %}{{ include.title }}: {% endif %}{% if include.description %}{{ include.description }}{% else %}{{ include.caption }}{% endif %}{% endcapture %}{{ feature-image-alt-text | replace: "&nbsp;", " " | replace: "&shy;", "" | markdownify | strip_html }}"
+                            class="{% if image contains '.svg' %}inject-svg{% endif %}{% if include.image-height != nil %} height-{{ include.image-height }}{% endif %}" />
+
+                    {% endif %}
+
+                {% if include.link %}</a>{% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if include.caption and include.caption != "" %}
+        <div class="feature-image-text">
+
+            <p class="feature-image-caption">
+                {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+            </p>
+
+            {% if include.source and include.source != "" %}
+
+                <div class="feature-image-source">
+                    {{ include.source | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
+                </div><!--.feature-image-source-->
+
+            {% endif %}
+
+        </div>
+        {% endif %}
+
+    </div><!--.feature-image-body-->
+
+</div>
+{% endcapture %}
+{{ this-feature-image }}
