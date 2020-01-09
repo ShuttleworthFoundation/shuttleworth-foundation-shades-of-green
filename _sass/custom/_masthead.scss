@@ -1,0 +1,31 @@
+// Masthead
+
+.masthead {
+    li {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        &.masthead-book-title {
+            a {
+                color: $black;
+            }
+        }
+        &.masthead-breadcrumb {
+            strong:first-child {
+                font-size: 0.7em;
+                font-weight: 300;
+            }
+            // Hide all but the first three masthead breadcrumbs
+            display: none;
+            &:nth-of-type(1),
+            &:nth-of-type(2),
+            &:nth-of-type(3) {
+                display: inline-block;
+            }
+            // Hide slash after last breadcrumb
+            &:nth-of-type(3)::after {
+                content: normal;
+            }
+        }
+
+    }
+}

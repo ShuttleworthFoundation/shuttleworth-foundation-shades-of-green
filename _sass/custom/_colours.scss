@@ -1,0 +1,28 @@
+// Colours
+
+$true-black: #231f20; // cmyk(0%, 0%, 0%, 100%)
+$rich-black: #000119; // cmyk(96%, 70%, 46%, 86%)
+$black: $true-black;
+$black-10: #e1e0dc; // cmyk(4%, 3%, 6%, 7%)
+$black-30: #c6cacb; // cmyk(22%, 15%, 16%, 0%)
+$black-50: #abb1b3; // cmyk(34%, 24%, 25%, 0%)
+$black-70: #393c3f; // cmyk(66%, 57%, 52%, 55%)
+$black-80: #2b2d30; // cmyk(69%, 61%, 56%, 66%)
+
+$green: #80bd26; // cmyk(32%, 0%, 80%, 26%)
+
+// CYMK values for print output
+@if $output-format == "print-pdf" {
+    
+    $true-black: cmyk(0%, 0%, 0%, 100%); // #231f20
+    $rich-black: cmyk(96%, 70%, 46%, 86%); // #000119
+    $black: $true-black;
+    $black-10: cmyk(0%, 0%, 0%, 10%);
+    $black-30: cmyk(0%, 0%, 0%, 30%);
+    $black-50: cmyk(0%, 0%, 0%, 50%);
+    $black-70: cmyk(0%, 0%, 0%, 70%);
+    $black-80: cmyk(0%, 0%, 0%, 80%);
+
+    $green: cmyk(32%, 0%, 80%, 26%); // #d2232a
+
+}
