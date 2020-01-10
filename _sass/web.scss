@@ -308,14 +308,14 @@ $web-reset-sequences: true !default; // This should stay last in the @import lis
 @import "partials/web-language-select";
 
 // Custom styles
-@import "custom/wrappers";
-@import "custom/typography";
-@import "custom/navigation";
-@import "custom/masthead";
-@import "custom/pagination";
-@import "custom/toc";
-@import "custom/images";
-@import "custom/search";
+@import "custom/web-wrappers";
+@import "custom/web-typography";
+@import "custom/web-navigation";
+@import "custom/web-masthead";
+@import "custom/web-pagination";
+@import "custom/web-toc";
+@import "custom/web-images";
+@import "custom/web-search";
 
 // Logic (if this then that)
 @import "partials/web-reset-sequences"; // This should stay last in the @import list
