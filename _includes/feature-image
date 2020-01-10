@@ -19,7 +19,7 @@ We have to do funky remove: '<p>' | remove: '</p>' | strip_newlines
 because https://github.com/jekyll/jekyll/issues/2248.
 {% endcomment %}
 
-<div class="feature-image{% if include.class %} {{ include.class }}{% endif %}"{% if include.reference %} id="{{ include.reference | slugify }}"{% endif %}>
+<div class="feature-image dps{% if include.class %} {{ include.class }}{% endif %}"{% if include.reference %} id="{{ include.reference | slugify }}"{% endif %}>
 
     <div class="feature-image-body">
 

@@ -72,4 +72,7 @@ have different behaviour for web or app. {% endcomment %}
     the relevant page cross-reference text as generated content.{% endcomment %}
     {% include_relative page-reference.js %}
 
+    {% comment %} This script creates DPS images tagged with .dps.{% endcomment %}
+    {% include_relative dps-images.js %}
+
 {% endif %}

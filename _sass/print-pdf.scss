@@ -27,17 +27,20 @@ $output-format: "print-pdf" !default;
 $edition-suffix: null !default;
 
 // First, we set several variables related to overall page setup.
-$page-width: 152mm !default;
-$page-height: 229mm !default;
-$margin-top: 60pt !default; // set in points to align with baseline grid
-$margin-bottom: 60pt !default;
-$margin-outside: 20mm !default;
-$margin-inside: 20mm !default;
-$bleed: 3mm !default;
-$trim: 3mm !default;
+$page-width: 152.4mm !default; // 6 x 9 inches is 15.24 x 22.86 cm
+$page-height: 228.6mm !default;
+$margin-top: 36pt !default; // set in points to align with baseline grid
+$margin-bottom: 36pt !default; // 36pt = 12.7mm
+$margin-outside: 12.7mm !default;
+$margin-inside: 12.7mm !default;
+$bleed: 3.175mm !default;
+$trim: 3.175mm !default;
 $crop-marks: crop !default; // crop | none
 $page-info-offset: 5mm !default;
 $columns-default: 1 !default;
+
+// Bleed for images, irrespective of page bleed
+$image-bleed: 5mm;
 
 // Optional sidebar setup
 // If you want a sidebar, set these values and change $print-sidebar
@@ -55,7 +58,7 @@ $column-gap-ratio: 10 !default;
 // 4. Then use @mixin sidebar() to move elements into the sidebar
 
 // Colours
-$colorspace: cmyk !default; // auto | none | rgb | cmyk | gray
+$colorspace: gray !default; // auto | none | rgb | cmyk | gray
 $color-text-main: cmyk(0,0,0,1) !default;
 $color-text-secondary: cmyk(0,0,0,0.8) !default;
 $color-background: transparent !default;
@@ -86,27 +89,27 @@ $convert-images-to-color-profile: false !default; // 'true' may convert true bla
 // Using prince-no-fallback triggers a warning and aborts PDF creation
 // if any glyphs are not found in the specified font, instead of switching to another one.
 // This is recommended for books where perfect reproduction among users is important.
-$font-text-main: "Crimson", prince-no-fallback !default;
-$font-text-secondary: "Source Sans Pro", prince-no-fallback !default;
-$font-display-main: "Source Sans Pro", prince-no-fallback !default;
-$font-display-secondary: "Crimson", prince-no-fallback !default;
+$font-text-main: "EB Garamond", prince-no-fallback !default;
+$font-text-secondary: "Barlow Condensed", prince-no-fallback !default;
+$font-display-main: "Barlow Condensed", prince-no-fallback !default;
+$font-display-secondary: "EB Garamond", prince-no-fallback !default;
 $font-code: "Ubuntu Mono", prince-no-fallback !default;
 
 // Finally, we set variables related to text flow.
-$font-size-default: 11pt !default;
-$line-height-default: 15pt !default; // Set in points. For consistent baselines, all other line heights and vertical spaces are based on this.
+$font-size-default: 12pt !default;
+$line-height-default: 14.4pt !default; // Set in points. For consistent baselines, all other line heights and vertical spaces are based on this.
 $font-size-smaller: 0.8 !default; // How much smaller than font-size-default for features like sidenotes and footers?
 $font-size-bigger: 2 !default; // How many times bigger than font-size-default for features like headings and pullquotes? Use whole numbers to preserve baseline grid.
-$text-align: justify !default; // left or right or inside or outside or justify or center
-$orphans: 1 !default; // Minimum number of lines that must be left at the bottom of the first page
-$widows: 1 !default; // Minimum number of lines that must be left at the top of the second page
+$text-align: left !default; // left or right or inside or outside or justify or center
+$orphans: 2 !default; // Minimum number of lines that must be left at the bottom of the first page
+$widows: 2 !default; // Minimum number of lines that must be left at the top of the second page
 $letter-spacing-text: 0em !default; // Default letter-spacing for p, ul, ol, dl. Set in ems, e.g. 0.01em for 10/1000s of an em.
 $math-size-percent: 85%; // Adjust this to make math character size match your body font
 
 // Do you want space between paragraphs, rather than a text-indent? true or false
-$spaced-paras: false !default;
+$spaced-paras: true !default;
 // If not spacing paras, how large is the first-line indent on paragraphs?
-$paragraph-indent: $line-height-default !default;
+$paragraph-indent: $font-size-default !default;
 
 // Rounded corners
 $button-border-radius: 0.1em !default; // Roundness of button corners
@@ -134,12 +137,12 @@ $text-divider-image-height: $line-height-default !default;
 // Should chapters start on a right-hand page (recto) or on any page?
 // This setting applies to the frontmatter, dedication-page, epigraph-page and chapter page styles.
 // (The halftitle-page, title-page and contents-page page styles always start on a recto.)
-$start-on: right !default; // right or auto or left ()
+$start-on: auto !default; // right or auto or left ()
 
 // Set the default start-depth of pages.
 // This is the distance from the top of the page to the first element on the first page.
 // Set it in multiples of $line-height-default to preserve your baseline grid.
-$start-depth: $line-height-default * 6 !default;
+$start-depth: 0 !default;
 
 // Style of page numbers on frontmatter pages
 // Remember to tag links to front matter pages in your TOC with {:.frontmatter-reference}
@@ -164,13 +167,13 @@ $frontmatter-reference-style: lower-roman !default; // lower-roman, decimal, see
 // * For other special characters, see CSS (ISO) at https://brajeshwar.github.io/entities/
 
 // Verso (left-hand-page)
-$verso-top: string(page-header) !default;
+$verso-top: normal !default;
 $verso-top-left: normal !default;
 $verso-top-right: normal !default;
 $verso-top-left-corner: normal !default;
 $verso-top-right-corner: normal !default;
-$verso-bottom: counter(page) !default;
-$verso-bottom-left: normal !default;
+$verso-bottom: normal !default;
+$verso-bottom-left: counter(page) !default;
 $verso-bottom-right: normal !default;
 $verso-bottom-left-corner: normal !default;
 $verso-bottom-right-corner: normal !default;
@@ -182,14 +185,14 @@ $verso-right-top: normal !default;
 $verso-right-bottom: normal !default;
 
 // Recto (right-hand-page)
-$recto-top: string(h2-text, last) !default;
+$recto-top: normal !default;
 $recto-top-left: normal !default;
 $recto-top-right: normal !default;
 $recto-top-left-corner: normal !default;
 $recto-top-right-corner: normal !default;
-$recto-bottom: counter(page) !default;
+$recto-bottom: normal !default;
 $recto-bottom-left: normal !default;
-$recto-bottom-right: normal !default;
+$recto-bottom-right: counter(page) !default;
 $recto-bottom-left-corner: normal !default;
 $recto-bottom-right-corner: normal !default;
 $recto-left: normal !default;
@@ -200,13 +203,13 @@ $recto-right-top: normal !default;
 $recto-right-bottom: normal !default;
 
 // Verso (left-hand-page) for .frontmatter pages (`style: frontmatter`)
-$verso-top-frontmatter: string(page-header) !default;
+$verso-top-frontmatter: normal !default;
 $verso-top-left-frontmatter: normal !default;
 $verso-top-right-frontmatter: normal !default;
 $verso-top-left-corner-frontmatter: normal !default;
 $verso-top-right-corner-frontmatter: normal !default;
-$verso-bottom-frontmatter: counter(page, $frontmatter-reference-style) !default;
-$verso-bottom-left-frontmatter: normal !default;
+$verso-bottom-frontmatter: normal !default;
+$verso-bottom-left-frontmatter: counter(page, $frontmatter-reference-style) !default;
 $verso-bottom-right-frontmatter: normal !default;
 $verso-bottom-left-corner-frontmatter: normal !default;
 $verso-bottom-right-corner-frontmatter: normal !default;
@@ -218,14 +221,14 @@ $verso-right-top-frontmatter: normal !default;
 $verso-right-bottom-frontmatter: normal !default;
 
 // Recto (right-hand-page) for .frontmatter pages (`style: frontmatter`)
-$recto-top-frontmatter: string(h2-text, last) !default;
+$recto-top-frontmatter: normal !default;
 $recto-top-left-frontmatter: normal !default;
 $recto-top-right-frontmatter: normal !default;
 $recto-top-left-corner-frontmatter: normal !default;
 $recto-top-right-corner-frontmatter: normal !default;
-$recto-bottom-frontmatter: counter(page, $frontmatter-reference-style) !default;
+$recto-bottom-frontmatter: normal !default;
 $recto-bottom-left-frontmatter: normal !default;
-$recto-bottom-right-frontmatter: normal !default;
+$recto-bottom-right-frontmatter: counter(page, $frontmatter-reference-style) !default;
 $recto-bottom-left-corner-frontmatter: normal !default;
 $recto-bottom-right-corner-frontmatter: normal !default;
 $recto-left-frontmatter: normal !default;
@@ -237,9 +240,9 @@ $recto-right-bottom-frontmatter: normal !default;
 
 // Set styles for headers and footers
 $header-font: $font-text-secondary !default;
-$footer-font: $font-text-secondary !default;
-$header-font-size: $font-size-default * $font-size-smaller !default;
-$footer-font-size: $font-size-default * $font-size-smaller !default;
+$footer-font: $font-text-main !default;
+$header-font-size: 9pt !default;
+$footer-font-size: 9pt !default;
 $header-font-weight: normal !default;
 $footer-font-weight: normal !default;
 $header-case: uppercase !default; // none|capitalize|uppercase|lowercase|initial|inherit;
@@ -250,8 +253,8 @@ $header-space-from-top: $margin-top / 2 + ($line-height-default / 4) !default; /
 $header-space-from-text: $line-height-default !default;
 $footer-space-from-bottom: $margin-bottom / 2 !default;
 $footer-space-from-text: $line-height-default !default;
-$header-text-align: center !default;
-$footer-text-align: center !default;
+$header-text-align: outside !default;
+$footer-text-align: outside !default;
 $header-text-color: $color-text-main !default;
 $footer-text-color: $color-text-main !default;
 $left-margin-font: $header-font !default;
@@ -349,6 +352,9 @@ $print-page-setup-lightning-source: false !default; // Removes crop marks and se
 // Import font files (@font-face) for fonts you specify
 // ----------------------------------------------------
 
+@import "custom/font-face--eb-garamond";
+@import "custom/font-face--barlow-condensed";
+
 // Default font-face rules added by print-font-faces partial below.
 
 // ---------------------
@@ -366,7 +372,7 @@ $print-page-setup-lightning-source: false !default; // Removes crop marks and se
 @import "partials/print-helpers";
 
 // Add font-face rules
-@import "partials/print-font-faces";
+// @import "partials/print-font-faces";
 
 // Page setup and control, avoid changing these
 @import "partials/print-pdf-view"; // Sets the default initial view on PDFs
@@ -412,6 +418,17 @@ $print-page-setup-lightning-source: false !default; // Removes crop marks and se
 @import "partials/print-questions";
 @import "partials/print-select-questions";
 @import "partials/print-cross-refs";
+
+// Custom styles
+@import "custom/pdf-typography";
+@import "custom/pdf-title-page";
+@import "custom/pdf-copyright-page";
+@import "custom/pdf-contents-page";
+@import "custom/pdf-part-page";
+@import "custom/pdf-footnotes";
+@import "custom/pdf-dps-images";
+
+// Resets
 @import "partials/print-reset-sequences"; // Resets p indents, margins after other elements. Must be last @import in list.
 @import "partials/print-page-headers-footers-content"; // Sets content for headers and footers
 @import "partials/print-page-headers-footers-style"; // Sets styling for headers and footers
