@@ -41,8 +41,8 @@ works:
   - directory: "book"
     title: "Shades of green"
     subtitle: "Reimagining philanthropy"
-    creator: "The Shuttleworth Foundation, Adam Hyde, Chris McGivern, Helen Turvey, Jason Hudson, Jesse Von Doom, Karien Bezuidenhout, Kathi Fletcher, Sean Bonner" # E.g. the author
-    contributor: "" # E.g. other contributors
+    creator: "The Shuttleworth Foundation" # E.g. the author
+    contributor: "Adam Hyde, Chris McGivern, Helen Turvey, Jason Hudson, Jesse Von Doom, Karien Bezuidenhout, Kathi Fletcher, Sean Bonner" # E.g. other contributors
     subject: "Business writing, Philanthropy & Charity" # E.g. BISAC terms (https://bisg.org/page/BISACEdition) or BIC (http://editeur.dyndns.org/bic_categories)
     description: |
       The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same. When the goal is to create something that is beneficial for the world, rather than beneficial for the market, everything gets reconsidered. This has become our way of life. Practising philanthropy as a vision, not an intervention, means we question every rule, examine every outcome and discard any process that no longer serves our core mission. We are the long game – looking beyond today’s politics and daily headlines and the technology trends of the moment to those things that are more fundamental, more systemic. Reactionary funding is shortsighted. We are interested in ripple effects that are felt for decades. These are building blocks, not photo ops. We refuse to shortchange our future. In practice this means we have moved away from giving grants and creating arbitrary metrics for change. We no longer accept project proposals, nor do we drive ideas internally. We have moved towards partnership; towards a shared vision for how change can be effected across domains. This book will explore these ideas and how we have applied them.
@@ -56,7 +56,8 @@ works:
     language: "en" # use ISO 639-1, 639-2, or 639-3 codes (in that order of preference)
     relation: "" # e.g. other edition ISBN
     coverage: "" # e.g. geographic place or chronological time span
-    rights: "Creative Commons Attribution-Share Alike License" # e.g. a copyright statement
+    rights: |
+      This work is published under a Creative Commons CC-BY-SA 4.0 license. For more information see creativecommons.org/licenses/by-sa/4.0/
     image: "cover.jpg"
     products: # Metadata for each product for this title (only use values that override parent metadata)
       print-pdf:
