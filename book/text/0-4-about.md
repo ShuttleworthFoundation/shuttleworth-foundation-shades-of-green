@@ -1,6 +1,5 @@
 ---
 title: "About this book"
-style: frontmatter about
 ---
 
 # About this book
