@@ -1,5 +1,8 @@
 ---
 title: "References"
+# This file is unecessary and should be deleted.
+# In the original, it included the footnotes,
+# which we now include in text.
 ---
 
 ## References

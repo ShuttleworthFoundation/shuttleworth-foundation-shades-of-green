@@ -11,13 +11,14 @@ style: copyright-page
 # Copyright and license
 {:.non-printing}
 
-*{{ title }}*
-
-Text © {{ creator }}
+{{ title }}
 
 {% include identifiers scheme="ISBN" %}
 
-[{{ rights }}](https://creativecommons.org/licenses/by-sa/4.0/)
+© 2019 The Shuttleworth Foundation\\
+[shuttleworthfoundation.org](https://shuttleworthfoundation.org)
+
+{{ rights }}
 
 Book design by Jesse von Doom\\
 Production by [Electric Book Works](https://electricbookworks.com)

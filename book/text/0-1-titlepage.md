@@ -5,14 +5,12 @@ style: title-page
 
 {% include metadata %}
 
-{{ title }}
-{:.title-page-title}
-
-{{ subtitle }}
-{:.title-page-subtitle}
-
-{{ creator }}
+The Shuttleworth Foundation
 {:.title-page-author}
 
-{{ publisher }}
-{:.title-page-publisher}
+Shades of&#x202f;**Green**
+{:.title-page-title}
+
+{% comment %}
+&#x202f; is a narrow no-break space
+{% endcomment %}

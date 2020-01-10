@@ -1,5 +1,6 @@
 ---
 title: "About this book"
+style: chapter about-page page-1
 ---
 
 # About this book
