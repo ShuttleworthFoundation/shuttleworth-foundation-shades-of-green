@@ -103,7 +103,6 @@ works:
           - "50-05-appendix-open-locks"
           - "50-06-appendix-gathering-guidelines"
           - "50-07-appendix-scale-sustainably"
-          - "60-00-references"
         toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
@@ -203,8 +202,6 @@ works:
               - label: "**vi** Thou shalt scale sustainably"
                 file: "50-07-appendix-scale-sustainably"
                 id: "vi-though-shalt-scale-sustainably"
-          - label: "References"
-            file: "60-00-references"
       web:
         date: "" # YYYY-MM-DD e.g. publication date or last revision
         format: "Digital online" # e.g. Paperback, Digital download, Digital online
@@ -246,7 +243,6 @@ works:
           - "50-05-appendix-open-locks"
           - "50-06-appendix-gathering-guidelines"
           - "50-07-appendix-scale-sustainably"
-          - "60-00-references"
         nav: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
           - label: "Contents"
             file: "0-3-contents"
@@ -348,8 +344,6 @@ works:
               - label: "**vi** Thou shalt scale sustainably"
                 file: "50-07-appendix-scale-sustainably"
                 id: "vi-though-shalt-scale-sustainably"
-          - label: "References"
-            file: "60-00-references"
         toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
@@ -449,8 +443,6 @@ works:
               - label: "**vi** Thou shalt scale sustainably"
                 file: "50-07-appendix-scale-sustainably"
                 id: "vi-though-shalt-scale-sustainably"
-          - label: "References"
-            file: "60-00-references"
         start-page: "0-3-contents" # At which file should users start reading?
         contents-page: "0-3-contents" # Your contents-page file, if you have one.
       epub:
