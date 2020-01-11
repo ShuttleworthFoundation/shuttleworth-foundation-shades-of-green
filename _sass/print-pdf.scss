@@ -101,8 +101,8 @@ $line-height-default: 14.4pt !default; // Set in points. For consistent baseline
 $font-size-smaller: 0.8 !default; // How much smaller than font-size-default for features like sidenotes and footers?
 $font-size-bigger: 2 !default; // How many times bigger than font-size-default for features like headings and pullquotes? Use whole numbers to preserve baseline grid.
 $text-align: left !default; // left or right or inside or outside or justify or center
-$orphans: 2 !default; // Minimum number of lines that must be left at the bottom of the first page
-$widows: 2 !default; // Minimum number of lines that must be left at the top of the second page
+$orphans: 1 !default; // Minimum number of lines that must be left at the bottom of the first page
+$widows: 1 !default; // Minimum number of lines that must be left at the top of the second page
 $letter-spacing-text: 0em !default; // Default letter-spacing for p, ul, ol, dl. Set in ems, e.g. 0.01em for 10/1000s of an em.
 $math-size-percent: 85%; // Adjust this to make math character size match your body font
 
