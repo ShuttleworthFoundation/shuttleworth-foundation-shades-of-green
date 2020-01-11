@@ -71,7 +71,7 @@ because https://github.com/jekyll/jekyll/issues/2248.
         {% endif %}
 
         {% if include.caption and include.caption != "" %}
-        <div class="feature-image-text">
+        <div class="feature-image-text" data-position="{{ include.text-position }}" data-color="{{ include.text-color }}" data-width="{{ include.text-width }}">
 
             <p class="feature-image-caption">
                 {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}

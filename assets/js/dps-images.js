@@ -60,8 +60,25 @@ function ebDPSDuplicate(element) {
     var ebDPSTextSource = element.querySelector('.feature-image-text');
     var ebDPSTextDestination = document.createElement('div');
     ebDPSTextDestination.classList.add('feature-image-text');
+
+    // Copy HTML from source to destination
     ebDPSTextDestination.innerHTML = ebDPSTextSource.innerHTML;
-    imageRightWrapper.insertBefore(ebDPSTextDestination, imageRight);
+
+    // Copy data attributes.
+    // Prince does not support dataset.
+    ebDPSTextDestination
+        .setAttribute('data-color', ebDPSTextSource.getAttribute('data-color'));
+    ebDPSTextDestination
+        .setAttribute('data-position', ebDPSTextSource.getAttribute('data-position'));
+    ebDPSTextDestination
+        .setAttribute('data-width', ebDPSTextSource.getAttribute('data-width'));
+
+    // Append the text according to desired position
+    if (ebDPSTextSource.getAttribute('data-position').indexOf('left') !== -1) {
+        imageLeftWrapper.insertBefore(ebDPSTextDestination, imageLeft);
+    } else {
+        imageRightWrapper.insertBefore(ebDPSTextDestination, imageRight);
+    }
 
     // Remove the original element
     element.parentNode.removeChild(element);
