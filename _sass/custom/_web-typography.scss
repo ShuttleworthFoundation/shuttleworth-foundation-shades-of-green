@@ -53,3 +53,12 @@ blockquote {
         }
     }
 }
+
+ol {
+    li {
+        // Currently, ::marker is only supported in Firefox
+        &::marker {
+            font-family: $font-text-secondary;
+        }
+    }
+}
