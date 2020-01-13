@@ -52,4 +52,4 @@ That is to say: here is the shit you might benefit from knowing, in ten Biblical
 
 10. **Thou shalt define the value you want to create in the world**
 
-   I will say it again: scaling numbers does not equal scaling impact. The value you want to create in the world is up to you to define, based on your ambition and the things you think are important in your theory of change. If you know you are creating true value and changing things, it should be fairly clear to you, and you perhaps should not even worry about scale if you haven’t got that bit clear. If you have, then go forth: you are ready to make like a lizard and get scaley.
+    I will say it again: scaling numbers does not equal scaling impact. The value you want to create in the world is up to you to define, based on your ambition and the things you think are important in your theory of change. If you know you are creating true value and changing things, it should be fairly clear to you, and you perhaps should not even worry about scale if you haven’t got that bit clear. If you have, then go forth: you are ready to make like a lizard and get scaley.
