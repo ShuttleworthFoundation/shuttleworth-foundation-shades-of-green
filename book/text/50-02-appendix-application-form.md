@@ -21,6 +21,7 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 
 ### Questions
 
+{:.form-questions}
 1. Tell us about the world as you see it.\\
 *A description of the status quo and context in which you will be working*
 
