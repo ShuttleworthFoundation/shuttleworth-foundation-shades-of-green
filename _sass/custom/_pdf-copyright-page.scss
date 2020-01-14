@@ -1,0 +1,11 @@
+// Copyright page
+
+.copyright-page {
+    margin-left: 15mm;
+    margin-right: 15mm;
+    margin-top: ($page-height - $margin-top - $margin-bottom) / 2;
+    position: static;
+    * {
+        text-align: center;
+    }
+}

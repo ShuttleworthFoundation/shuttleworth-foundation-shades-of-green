@@ -1,0 +1,37 @@
+// Navigation
+
+.nav-button {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#nav {
+    .search {
+        input::placeholder {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    }
+    .nav-title {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    li {
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        line-height: $line-height-default;
+        margin-bottom: $line-height-default / 4;
+        a {
+            strong {
+                &:first-child {
+                    font-size: 0.7em;
+                    font-weight: inherit;
+                }
+            }
+        }
+    }
+    // Menu close button
+    [data-nav-close] {
+        font-size: 2em;
+    }
+}

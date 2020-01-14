@@ -3,6 +3,6 @@ title: Contents
 style: contents-page
 ---
 
-# Contents
+# Table of contents
 
 {% include toc %}

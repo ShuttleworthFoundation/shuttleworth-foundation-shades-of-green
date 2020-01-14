@@ -1,0 +1,27 @@
+// Contents
+
+.contents-page #content {
+    .toc-list {
+        li.toc-entry-title {
+            font-family: $font-text-secondary;
+            letter-spacing: 0.05em;
+            margin-bottom: $line-height-default;
+            text-transform: uppercase;
+            strong:first-child {
+                font-family: $font-text-secondary;
+                font-size: 0.7em;
+                font-weight: 300;
+                margin-right: 1em;
+            }
+            ol.toc-list {
+                margin-top: $line-height-default / 2;
+                li.toc-entry-title {
+                    font-family: $font-text-main;
+                    letter-spacing: 0;
+                    margin-bottom: 0;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 ---
 title: "Appendix"
-style: part-opener
+style: part-page
 ---
 
 # Appendix

@@ -1,0 +1,24 @@
+// Pagination
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    max-width: $max-width-default;
+    padding: 0;
+    .pagination-marker {
+        font-size: 2em;
+    }
+    @media only screen and (min-width: $break-width-large) {
+        .pagination-previous,
+        .pagination-next {
+            position: fixed;
+            top: 50%;
+        }
+        .pagination-previous {
+            left: $line-height-default;
+        }
+        .pagination-next {
+            right: $line-height-default;
+        }
+    }
+}

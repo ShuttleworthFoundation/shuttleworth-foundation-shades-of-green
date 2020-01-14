@@ -44,7 +44,7 @@ $font-size-smaller: 0.8 !default; // How much smaller than font-size-default for
 $font-size-bigger: 2 !default; // How many times bigger than font-size-default for features like headings and pullquotes?
 
 // Do you want space between paragraphs, rather than a text-indent? true or false
-$spaced-paras: false !default;
+$spaced-paras: true !default;
 // If not spacing paras, how large is the first-line indent on paragraphs?
 $paragraph-indent: $line-height-default !default;
 
@@ -64,6 +64,7 @@ $box-border-radius: 0.5em !default; // Roundness of box corners
 $rule-thickness: 1px !default;
 
 // Colours
+@import "custom/colours";
 $color-text-main: initial !default;
 $color-text-secondary: initial !default;
 $color-background: transparent !default;
@@ -174,6 +175,7 @@ $epub-reset-sequences: true !default;
 // Load general-purpose mixins
 @import "partials/epub-mixins--buttons";
 @import "partials/epub-mixins--sidenotes";
+@import "partials/epub-mixins--show-url";
 
 // Structural HTML components
 @import "partials/epub-wrappers";
@@ -218,6 +220,14 @@ $epub-reset-sequences: true !default;
 // Type-control classes
 @import "partials/epub-smallcaps";
 @import "partials/epub-fitting";
+
+// Custom partials
+@import "custom/epub-typography";
+@import "custom/epub-title-page";
+@import "custom/epub-copyright-page";
+@import "custom/epub-part-page";
+@import "custom/epub-toc";
+@import "custom/epub-images";
 
 // Logic (if this then that)
 @import "partials/epub-reset-sequences";

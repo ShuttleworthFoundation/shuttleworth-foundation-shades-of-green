@@ -1,0 +1,116 @@
+// DPS images
+// Works in concert with dps-images.js
+// Experimental! This will need tweaking for each project.
+
+// Allowance on each page for image in gutter. Hypothetical.
+// Note that this will push the image outward, affecting text.
+// So the maths here should take that into account before using
+// this variable. Probably should affect .dps-left and .dps-right width.
+$dps-gutter-allowance: 0 !default;
+
+$print-dps-images: true !default;
+@if $print-dps-images {
+
+    // Override .figure defaults
+    .dps,
+    .figure-dps,
+    .feature-image.dps {
+        clear: none;
+        margin: 0;
+        .figure-body,
+        .feature-image-body {
+            .figure-images,
+            .feature-images {
+                margin: 0;
+            }
+        }
+    }
+
+    // Position image wrappers, added by dps.js.
+    // Min-height required to push image onto second page.
+    .dps-left, .dps-right {
+        float: top;
+        margin-top: -($margin-top + $image-bleed);
+        margin-bottom: -($margin-bottom + $image-bleed);
+        margin-inside: $dps-gutter-allowance - $margin-inside - $image-bleed;
+        margin-outside: $dps-gutter-allowance - $margin-outside - $image-bleed;
+        height: $page-height + ($image-bleed * 2);
+        min-height: $page-height / 2;
+        position: relative;
+        img {
+            position: absolute;
+            width: 200%;
+            max-width: none;
+            max-height: 100%;
+        }
+    }
+    .dps-left {
+        page: dps-left-page;
+        page-break-before: left;
+        text-align: left;
+    }
+    .dps-right {
+        page: dps-right-page;
+        text-align: right;
+        img {
+            right: 0;
+        }
+    }
+
+    // Fixes
+    .dps {
+        & + p {
+            text-indent: 0;
+        }
+    }
+
+    // Position text
+    .feature-image-text {
+        // Position
+        position: absolute;
+        z-index: 2;
+        top: $line-height-default * 2;
+        right: $line-height-default * 2;
+        margin-left: $line-height-default * 5;
+        margin-right: $line-height-default * 2;
+        // Typography
+        color: white;
+        padding: $line-height-default / 2;
+        &[data-color="black"] {
+            color: black;
+        }
+        &[data-position*="bottom"] {
+            top: auto;
+            bottom: $line-height-default * 2;
+        }
+        &[data-width*="wide"] {
+            top: auto;
+            bottom: $line-height-default * 2;
+            margin-left: $line-height-default * 2;
+            margin-right: 0;
+        }
+        .feature-image-caption {
+            font-size: $font-size-default * 1.6;
+            line-height: $line-height-default * 1.5;
+            letter-spacing: 0.01em;
+            margin-bottom: $line-height-default / 2;
+            // 'Float' opening quote mark to left
+            text-indent: -0.4em;
+            margin-left: 0.4em;
+            .feature-image-reference {
+                display: none;
+            }
+        }
+        .feature-image-source {
+            font-family: $font-text-secondary;
+            font-size: $font-size-default * 1.3;
+            font-style: normal;
+            font-weight: 300;
+            margin-left: 0.4em; // align with caption text
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    }
+
+}

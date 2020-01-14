@@ -1,0 +1,27 @@
+// Contents page
+
+.contents-page {
+    .toc-list {
+        li {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-family: $font-text-secondary;
+            margin-bottom: $line-height-default;
+            ol {
+                margin-top: $line-height-default / 2;
+                li {
+                    text-transform: none;
+                    letter-spacing: 0;
+                    font-family: $font-text-main;
+                    margin-bottom: $line-height-default / 2;
+                    strong:first-child {
+                        font-family: $font-text-secondary;
+                        font-size: 0.7em;
+                        font-weight: 300;
+                        margin-right: 0.25em;
+                    }
+                }
+            }
+        }
+    }
+}
