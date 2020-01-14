@@ -44,7 +44,7 @@ $font-size-smaller: 0.8 !default; // How much smaller than font-size-default for
 $font-size-bigger: 2 !default; // How many times bigger than font-size-default for features like headings and pullquotes?
 
 // Do you want space between paragraphs, rather than a text-indent? true or false
-$spaced-paras: false !default;
+$spaced-paras: true !default;
 // If not spacing paras, how large is the first-line indent on paragraphs?
 $paragraph-indent: $line-height-default !default;
 
