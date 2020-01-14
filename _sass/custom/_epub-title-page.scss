@@ -8,25 +8,26 @@
     margin: 0;
     text-align: left;
     strong {
-        font-weight: 500;
+        font-weight: 600;
+        color: $green;
     }
 }
 
 .title-page {
     .title-page-author {
         @include title-page-common();
-        font-size: 18pt;
-        line-height: 18pt;
+        font-size: $font-size-default * 1.1;
+        line-height: 1;
         margin-bottom: $line-height-default / 2;
     }
     .title-page-title {
         @include title-page-common();
-        font-size: 80pt;
-        line-height: 60pt;
+        font-size: $font-size-default * 4;
+        line-height: 1;
     }
     .title-page-subtitle {
         @include title-page-common();
-        font-size: 18pt;
-        line-height: 18pt;
+        font-size: $font-size-default * 1.1;
+        line-height: 1;
     }
 }

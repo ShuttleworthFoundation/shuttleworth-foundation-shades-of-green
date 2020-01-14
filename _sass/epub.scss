@@ -64,6 +64,7 @@ $box-border-radius: 0.5em !default; // Roundness of box corners
 $rule-thickness: 1px !default;
 
 // Colours
+@import "custom/colours";
 $color-text-main: initial !default;
 $color-text-secondary: initial !default;
 $color-background: transparent !default;
