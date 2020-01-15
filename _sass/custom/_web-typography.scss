@@ -1,0 +1,64 @@
+// Typography
+
+@mixin heading-1() {
+    font-size: 4em;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+@mixin heading-2() {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    strong:first-child {
+        display: block;
+        font-size: 0.5em;
+        font-weight: 300;
+        // Move chapter number to left on larger screens
+        @media only screen and (min-width: $break-width-large) {
+            display: table-cell;
+            padding-right: 1em;
+            transform: translateX(-100%);
+        }
+    }
+}
+
+@mixin heading-3() {
+    font-family: $font-text-main;
+    font-style: italic;
+    font-weight: normal;
+    margin: $line-height-default 0 ($line-height-default / 2) 0;
+}
+
+h1 {
+    @include heading-1();
+}
+
+h2 {
+    @include heading-2();
+}
+
+h3 {
+    @include heading-3();
+}
+
+blockquote {
+    em.source {
+        display: inline;
+        font-style: normal;
+        margin: 0;
+        &::before {
+            content: "\202f\2014\202f"; // narrow no-break space, em dash, narrow no-break space
+        }
+    }
+}
+
+ol {
+    li {
+        // Currently, ::marker is only supported in Firefox
+        &::marker {
+            font-family: $font-text-secondary;
+        }
+    }
+}

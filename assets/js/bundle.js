@@ -5,6 +5,7 @@ layout: null
 ---
 
 {% include_relative polyfills.js %}
+{% include_relative settings.js %}
 {% include_relative locales.js %}
 {% include_relative mark-parents.js %}
 
@@ -70,5 +71,8 @@ have different behaviour for web or app. {% endcomment %}
     {% comment %}This script detects the page number we are on and provides
     the relevant page cross-reference text as generated content.{% endcomment %}
     {% include_relative page-reference.js %}
+
+    {% comment %} This script creates DPS images tagged with .dps.{% endcomment %}
+    {% include_relative dps-images.js %}
 
 {% endif %}

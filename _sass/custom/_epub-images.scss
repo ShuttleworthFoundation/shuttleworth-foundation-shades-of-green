@@ -1,0 +1,46 @@
+// Feature images
+
+.feature-image {
+    line-height: 0.7; // avoid white space between image and caption
+    margin: $line-height-default 0;
+    width: 100%;
+    width: 100vw;
+    .feature-image-body {
+        position: relative;
+        .feature-images {
+            img {
+                width: 100%;
+            }
+        }
+        .feature-image-description {
+            display: none;
+        }
+        .feature-image-text {
+            background-color: black;
+            color: white;
+            line-height: $line-height-default;
+            padding: $line-height-default / 2;
+            .feature-image-caption {
+                font-size: 1.2em;
+                letter-spacing: 0.01em;
+                margin-bottom: $line-height-default / 2;
+                // 'Float' opening quote mark to left
+                text-indent: -0.4em;
+                margin-left: 0.4em;
+                margin-right: 0.4em;
+                .feature-image-reference {
+                    display: none;
+                }
+            }
+            .feature-image-source {
+                font-family: $font-text-secondary;
+                font-style: normal;
+                font-weight: 300;
+                margin-left: 0.4em; // align with caption text
+                margin-right: 0.4em; // align with caption text
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+            }
+        }
+    }
+}

@@ -22,7 +22,7 @@ function addPageReferenceFunc() {
         return;
     }
 
-    if (Prince) {
+    if (typeof Prince !== 'undefined') {
         console.log('Adding page references in Prince.');
         Prince.addScriptFunc("pagereference", function (currentPage, targetPage) {
 

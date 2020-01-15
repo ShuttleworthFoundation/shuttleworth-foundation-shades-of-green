@@ -41,7 +41,7 @@ print-pdf:
   # Choose between endnotes or footnotes (endnotes are default)
   # (You can also set this per markdown file with notes: footnotes,
   # or per endnote by adding .move-to-footnote to it.)
-  notes: endnotes
+  notes: footnotes
 
 # ----------------------------------------------------------
 # Screen-PDF settings
@@ -50,7 +50,7 @@ screen-pdf:
   # Choose between endnotes or footnotes (endnotes are default)
   # (You can also set this per markdown file with notes: footnotes,
   # or per endnote by adding .move-to-footnote to it.)
-  notes: endnotes
+  notes: footnotes
 
 # ----------------------------------------------------------
 # Web settings
@@ -103,6 +103,11 @@ web:
   # Set 'inject' to false to disable SVG injection.
   svg:
     inject: true
+  # -----------------
+  # Images management
+  # -----------------
+  images:
+    lazyload: false
 
 # ----------------------------------------------------------
 # Epub settings
