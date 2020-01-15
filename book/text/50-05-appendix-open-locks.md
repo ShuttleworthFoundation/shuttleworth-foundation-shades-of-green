@@ -8,7 +8,7 @@ Open Locks are a very specific legal mechanism to make sure that initial commitm
 
 ### Open Locks: Legal commitments that lock in trust
 
-It’s hard for anyone to make a positive change in the world when they are behind on mortgage payments, have credit card debt building up, and are waiting for a decision on a grant. And things get even testier when a private investor waves a few high-number bills under their nose and offers to buy them out – on the proviso they make a few “concessions,” of course.
+It’s hard for anyone to make a positive change in the world when they are behind on mortgage payments, have credit card debt building up, and are waiting for a decision on a grant. And things get even testier when a private investor waves a few high-number bills under their nose and offers to buy them out – on the proviso they make a few “concessions”, of course.
 
 The history of open knowledge resource organisations – from open software through open textbooks to open science through open hardware – is littered with this kind of occurrence. Some founders start out with the best intentions before defecting to the comforts and potential riches of a proprietary model. Many others find themselves pressured by investors – or even board members – to lock up knowledge and charge for it instead. But most just run out of steam due to life getting in the way – and seek what is a the only way out to make it easier.
 

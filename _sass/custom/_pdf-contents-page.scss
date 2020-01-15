@@ -23,5 +23,10 @@
                 }
             }
         }
+        // make sure that all of the page numbers on 
+        // the toc use the same font
+        a::after {
+            font-family: $font-text-main;
+        }
     }
 }

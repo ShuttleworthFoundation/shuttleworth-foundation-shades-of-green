@@ -28,7 +28,8 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 2. What change do you want to make in the world?\\
 *A description of what you want to change about the status quo, in the world, your personal vision for this area*
 
-3. What do you believe has prevented this change to date?\\*Describe the innovations or questions you would like to explore during the fellowship year*
+3. What do you believe has prevented this change to date?\\
+*Describe the innovations or questions you would like to explore during the fellowship year*
 
 4. What are you going to do to get there?\\
 *A description of what you actually plan to do during the year*

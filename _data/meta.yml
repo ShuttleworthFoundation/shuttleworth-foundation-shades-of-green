@@ -104,6 +104,8 @@ works:
           - "50-06-appendix-gathering-guidelines"
           - "50-07-appendix-scale-sustainably"
         toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
+          - label: "About this book"
+            file: "0-4-about"
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
             children:
@@ -131,7 +133,7 @@ works:
               - label: "**07** Open is power"
                 file: "02-07"
                 id: "07-open-is-power"
-              - label: "**08** Culture of Community"
+              - label: "**08** Culture of community"
                 file: "02-08"
                 id: "08-culture-of-community"
               - label: "**09** Community means co-ownership"
@@ -164,7 +166,7 @@ works:
               - label: "**16** Gathering together"
                 file: "04-16"
                 id: "16-gathering-together"
-              - label: "**17** Once a fellow, Always A Fellow"
+              - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
                 id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
@@ -246,6 +248,8 @@ works:
         nav: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
           - label: "Contents"
             file: "0-3-contents"
+          - label: "About this book"
+            file: "0-4-about"
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
             children:
@@ -273,7 +277,7 @@ works:
               - label: "**07** Open is power"
                 file: "02-07"
                 id: "07-open-is-power"
-              - label: "**08** Culture of Community"
+              - label: "**08** Culture of community"
                 file: "02-08"
                 id: "08-culture-of-community"
               - label: "**09** Community means co-ownership"
@@ -306,7 +310,7 @@ works:
               - label: "**16** Gathering together"
                 file: "04-16"
                 id: "16-gathering-together"
-              - label: "**17** Once a fellow, Always A Fellow"
+              - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
                 id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
@@ -345,6 +349,8 @@ works:
                 file: "50-07-appendix-scale-sustainably"
                 id: "vi-thou-shalt-scale-sustainably"
         toc: # For each menu item, include at least label and file. Optionally add id (for deep linking) and children.
+          - label: "About this book"
+            file: "0-4-about"
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
             children:
@@ -492,6 +498,8 @@ works:
           - "50-06-appendix-gathering-guidelines"
           - "50-07-appendix-scale-sustainably"
         toc: # For each menu item, include at least label and file (epub requires file). Optionally add id (for deep linking) and children.
+          - label: "About this book"
+            file: "0-4-about"
           - label: "Reconsider everything"
             id: "1-reconsider-everything"
             children:

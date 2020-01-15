@@ -10,39 +10,34 @@ Below, we include practical how-tos of our Gathering format to demonstrate how t
 
 There are a few rules necessary to orchestrate the Gathering, but they all revolve around respecting the process which in turn, respects the people.
 
-1. **If you come at all, you come for it all**
+**1. If you come at all, you come for it all**\\
+Current fellows MUST attend and all attendees must be present for the entire period. There is a designed sense of egalitarianism at every Gathering. Everyone is at the same level, there for the entirety, and no one is special.
 
-   Current fellows MUST attend and all attendees must be present for the entire period. There is a designed sense of egalitarianism at every Gathering. Everyone is at the same level, there for the entirety, and no one is special.
+**2. Be present**\\
+All sessions are important, nothing is skippable. No time out to take calls or hold offsite meetings – it breaks the dynamic. To create a productive community of trust and respect, everyone must be “all in”.
 
-2. **Be present**
+**3. No presentations**\\
+Monologues and powerpoint presentations are unwelcome. Breakout sessions are held to create dialogue around a specific issue so the host gets as much wisdom from as many people in the room as possible. These are for honest deep dives into issues, not to present your best possible self; you are not selling yourself or your project. Keep. It. Real.
 
-   All sessions are important, nothing is skippable. No time out to take calls or hold offsite meetings – it breaks the dynamic. To create a productive community of trust and respect, everyone must be “all in.”
+**4. No companions**\\
+Gatherings are for fellows and staff only and family or team members should not attend events or share accommodation. The focus is on generating a community. Others are a distraction, diminishing this effort substantially.
 
-3. **No presentations**
+**5. Meeting rules**\\
+In addition to the Gathering rules which relate to the event as a whole, these are the rules that the facilitator shares at the beginning of each Gathering to remind the group how to work together during the event.
 
-   Monologues and powerpoint presentations are unwelcome. Breakout sessions are held to create dialogue around a specific issue so the host gets as much wisdom from as many people in the room as possible. These are for honest deep dives into issues, not to present your best possible self; you are not selling yourself or your project. Keep. It. Real.
+The rules:
 
-4. **No companions**
-
-   Gatherings are for fellows and staff only and family or team members should not attend events or share accommodation. The focus is on generating a community. Others are a distraction, diminishing this effort substantially.
-
-5. **Meeting rules**
-
-   In addition to the Gathering rules which relate to the event as a whole, these are the rules that the facilitator shares at the beginning of each Gathering to remind the group how to work together during the event.
-
-   The rules:
-
-   * Treat others with respect at all times.
-   * Be on time. If you aren’t on time, you will sing a song. No exceptions.
-   * Listen and focus.
-   * When we disagree, agree to diversity of opinion rather than debate.
-   * No jargon.
-   * Questions are heroic acts.
-   * With N people in the room, speak 1/Nth of the time.
-   * Practice constructive selfishness: working through problems or opportunities that are important to you in ways that have benefit for other participants.
-   * During breaks, sit with someone you don’t know well.
-   * Don’t share beyond the group without permission.
-   * Devices at ease. Keep laptops and phones out of sight and out of mind. Technology is distracting and will negatively affect the ability to engage.
+* Treat others with respect at all times.
+* Be on time. If you aren’t on time, you will sing a song. No exceptions.
+* Listen and focus.
+* When we disagree, agree to diversity of opinion rather than debate.
+* No jargon.
+* Questions are heroic acts.
+* With N people in the room, speak 1/Nth of the time.
+* Practice constructive selfishness: working through problems or opportunities that are important to you in ways that have benefit for other participants.
+* During breaks, sit with someone you don’t know well.
+* Don’t share beyond the group without permission.
+* Devices at ease. Keep laptops and phones out of sight and out of mind. Technology is distracting and will negatively affect the ability to engage.
 
 ### The Agenda
 

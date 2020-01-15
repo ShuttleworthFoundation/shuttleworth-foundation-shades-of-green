@@ -18,15 +18,15 @@ If you are a Fellow, then the Open Requirements apply to knowledge resources tha
 
 ### Open Content and Data
 
-You must make knowledge resources open as defined in the Open Definition (http://opendefinition.org/) “A piece of data or content is open if anyone is free to use, reuse, and redistribute it – subject only, at most, to the requirement to attribute and/or share-alike.” You must share data (http://opendefinition.org/licenses/\#Data) under Creative Commons 0 or another license or dedication that complies with the Open Definition (http://opendefinition.org/). You must share knowledge resources using a format that is platform independent, machine readable, editable and available to the public without restrictions that would impede the re-use of the information.
+You must make knowledge resources open as defined in the [Open Definition](http://opendefinition.org/){:.show-url} “A piece of data or content is open if anyone is free to use, reuse, and redistribute it – subject only, at most, to the requirement to attribute and/or share-alike.” You must share [data](http://opendefinition.org/licenses/#Data){:.show-url} under Creative Commons 0 or another license or dedication that complies with the [Open Definition](http://opendefinition.org/). You must share knowledge resources using a format that is platform independent, machine readable, editable and available to the public without restrictions that would impede the re-use of the information.
 
 ### Free and Open Source Software
 
-You must distribute software under the General Public License 3.0 (http://www.gnu.org/licenses/gpl) or another license listed by the Open Source Initiative as complying with the Open Source Definition (http://opensource.org/osd) but you must license software that functions primarily as network server software under the GNU Affero General Public License (www.gnu.org/licenses/agpl.html).
+You must distribute software under the [General Public License 3.0](http://www.gnu.org/licenses/gpl){:.show-url} or another license listed by the Open Source Initiative as complying with the [Open Source Definition](http://opensource.org/osd){:.show-url} but you must license software that functions primarily as network server software under the [GNU Affero General Public License](www.gnu.org/licenses/agpl.html){:.show-url}.
 
 ### Open Hardware
 
-You must license all hardware under a license or licenses that comply with the Open Source Hardware Definition (http://www.oshwa.org/definition/). If semiconductor chip products or mask rights apply to anything you create during the Fellowship year or pay for as Fellow, you must give an irrevocable non-exclusive royalty free license or licenses under those rights that permits enables anyone to make, use, sell, offer for sale, import or distribute products conditional only upon attribution and share-alike requirements.
+You must license all hardware under a license or licenses that comply with the [Open Source Hardware Definition](http://www.oshwa.org/definition/){:.show-url}. If semiconductor chip products or mask rights apply to anything you create during the Fellowship year or pay for as Fellow, you must give an irrevocable non-exclusive royalty free license or licenses under those rights that permits enables anyone to make, use, sell, offer for sale, import or distribute products conditional only upon attribution and share-alike requirements.
 
 ### Other Licenses
 
@@ -38,7 +38,7 @@ You are free to ask the Foundation to agree that you obtain a patent, utility pa
 
 ### Ownership
 
-Intellectual Property over knowledge resources that you create during a Fellowship year or pay for as Fellow belongs to you, unless you’ve agreed with the Foundation that the Intellectual Property is owned by an Intellectual Property Steward. You in the Open Requirements means you as a Fellow. In any Fellowship year You can transfer ownership of any of the Intellectual Property under the Open Requirements but only with the written agreement of the Foundation.
+Intellectual Property over knowledge resources that you create during a Fellowship year or pay for as Fellow belongs to you, unless you’ve agreed with the Foundation that the Intellectual Property is owned by an Intellectual Property Steward. You in the Open Requirements means you as a Fellow. In any Fellowship year you can transfer ownership of any of the Intellectual Property under the Open Requirements but only with the written agreement of the Foundation.
 
 When you as Fellow pay someone else to create anything under Intellectual Property with funds from the Foundation you must ensure that the Intellectual Property is owned by you or in the Intellectual Property Steward if someone else is Intellectual Property Steward. Ownership of Intellectual Property under the Open Requirements is good and sufficient consideration for you to comply with the Open Requirements.
 
