@@ -12,9 +12,11 @@ The agreement letter is what fellows receive just after we let them know they ha
 >
 > Included in this agreement is a specification sheet, which details the data pertaining to your specific Fellowship, a fellowship overview, which describes what we hope to achieve together, and our broad philosophy and theory of change, which outlines how we behave in the world. Also included are the governing provisions which will protect both of us going forward.
 >
-> Our commitment to you This Fellowship offers you freedom, financial ability, and an enabling support structure to bring about the change you envisage for the world. We will provide technological, accounting, and legal support. We aim to be a true collaborator in working and thinking with you to achieve your goals. You will find yourself part of an ever growing community of trust, where wins, losses, learnings and experiences are shared.
+> *Our commitment to you*    
+> This Fellowship offers you freedom, financial ability, and an enabling support structure to bring about the change you envisage for the world. We will provide technological, accounting, and legal support. We aim to be a true collaborator in working and thinking with you to achieve your goals. You will find yourself part of an ever growing community of trust, where wins, losses, learnings and experiences are shared.
 >
-> Your commitment to us You will wholeheartedly commit to driving the change you envision in the world. That includes making the most of the opportunities this Fellowship offers.
+> *Your commitment to us*    
+> You will wholeheartedly commit to driving the change you envision in the world. That includes making the most of the opportunities this Fellowship offers.
 >
 > To do that, you agree not to do paid or time-consuming work outside of the Fellowship without our explicit, case-by-case permission. We’re likely to approve other work if we’re confident it won’t negatively affect your ability to implement your vision to change the world.
 >
@@ -24,19 +26,22 @@ The agreement letter is what fellows receive just after we let them know they ha
 >
 > You will keep confidential any information about the Foundation and your fellow Fellows that might reasonably need to be kept confidential. The personal security and liberty of some Fellows could be at risk if video or photographic images of them are made public. When in doubt, ask.
 >
-> Openness Being open with our work is vital for others to replicate it and benefit society. If we can shorten the time it takes a good idea to spread by living out loud, the results will speak for themselves. Everything we work on is designed to demonstrate the power of openness, participation and creativity. We believe your work can help build an open knowledge society. That is why we insist on open communications, open licenses, open source and open reporting.
+> *Openness*    
+> Being open with our work is vital for others to replicate it and benefit society. If we can shorten the time it takes a good idea to spread by living out loud, the results will speak for themselves. Everything we work on is designed to demonstrate the power of openness, participation and creativity. We believe your work can help build an open knowledge society. That is why we insist on open communications, open licenses, open source and open reporting.
 >
 > As a Shuttleworth Fellow, you will be creating intellectual property by writing, gathering data, contributing to designs and so on. The intellectual property you create will belong to you (or your organisation if you so choose) to ensure you have the power to continue to use, share and evolve it. To help you get your ideas out into the world, and realise the potential value of openness, you will release everything as an open resource. Resources are open when they are available for revision, translation, improvement and sharing, under open licenses, open standards and in open formats, free from technical protection measures.
 >
 > We understand that there are a number of legitimate reasons why certain resources may not be made open. We will consider instances of privacy, confidentiality, security and utility which may preclude certain documents or information from being licensed in this way, but our default is always open.
 >
-> Grant You will receive a grant, in four equal instalments, to devote your time and energy to your Fellowship. You will be responsible for managing your own time and efforts, and complying with the relevant tax laws in your jurisdiction.
+> *Grant*    
+> You will receive a grant, in four equal instalments, to devote your time and energy to your Fellowship. You will be responsible for managing your own time and efforts, and complying with the relevant tax laws in your jurisdiction.
 >
 > Alongside this grant, in a separate process, you will have the opportunity to apply for additional project funding by making a personal contribution. We will match your contribution of up to 25,000 USD tenfold, with project funding of 250,000 USD. This funding may be used by you to advance your thinking, collaborate, travel, create or drive your ideas forward and will be governed by separate agreements.
 >
 > There are many legal forms an initiative can take to change the world. We wish for you to have the most appropriate structure to achieve your aims. We have no preference between non-profit, for-profit or no structure at all, it is about what works best for you. To continue to learn and evolve, and for the good of those that come after you, we would like to become a member of your decision-making board. If you have a for-profit entity, we ask for a 30% equity stake. Should you strike it big, you will be contributing to the support of future change agents.
 >
-> Success Once you have joined this Fellowship, you will always be considered a Shuttleworth Fellow. You will be part of our community and will have a voice. We hope you will grow and learn with us, and your fellow Fellows, to build out a network of comrades that understand that the world should, and can, be better by being open.
+> *Success*    
+> Once you have joined this Fellowship, you will always be considered a Shuttleworth Fellow. You will be part of our community and will have a voice. We hope you will grow and learn with us, and your fellow Fellows, to build out a network of comrades that understand that the world should, and can, be better by being open.
 >
 > Measuring your impact in the world will be hard. Whilst many models for measuring impact exist, in truth most of them only evaluate implementation, which is bound to be complex, will not adhere to your implementation timelines and will often extend way beyond your control. Instead, we think of success in terms of your on-going contribution to change.
 >
@@ -44,7 +49,8 @@ The agreement letter is what fellows receive just after we let them know they ha
 >
 > We want you to know, it is our belief that the more you put in, the more you share, the more open you are, the more successful you will become. Within this context, we work with you to define your own successes, for the fellowship year and for your big picture change in the world.
 >
-> Thank you You are dedicating your valuable time and efforts to building something bigger than yourself, whilst placing your faith in a Foundation you don’t yet know well. You have been brave enough to re-imagine how our world can be more safe, more equitable and more just. We owe you our gratitude for your unique vision, your passion and your desire to make the changes you have so eloquently expressed to us.
+> *Thank you*    
+> You are dedicating your valuable time and efforts to building something bigger than yourself, whilst placing your faith in a Foundation you don’t yet know well. You have been brave enough to re-imagine how our world can be more safe, more equitable and more just. We owe you our gratitude for your unique vision, your passion and your desire to make the changes you have so eloquently expressed to us.
 >
 > Thank you for joining us. We hope you are as excited as we are.
 {:.letter}
