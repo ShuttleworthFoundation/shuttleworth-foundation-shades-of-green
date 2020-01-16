@@ -430,3 +430,6 @@ $print-page-headers-footers-style: true !default; // Sets styling for headers an
 @import "partials/print-reset-sequences"; // Resets p indents, margins after other elements. Must be last @import in list.
 @import "partials/print-page-headers-footers-content"; // Sets content for headers and footers
 @import "partials/print-page-headers-footers-style"; // Sets styling for headers and footers
+
+// Page refinement
+@import "custom/pdf-refinement";
