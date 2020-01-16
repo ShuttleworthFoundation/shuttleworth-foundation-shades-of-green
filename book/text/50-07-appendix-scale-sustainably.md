@@ -4,7 +4,7 @@ title: "Thou shalt scale sustainably"
 
 ## **vi** Thou shalt scale sustainably
 
-Crowdsourced in Vancouver, Canada, from the assembled Shuttleworth fellows, alumni and staff of 2017, and transcribed (with bad jokes) by Gavin Weale.
+Crowdsourced in Vancouver, Canada, from the assembled Shuttleworth fellows, alumni and staff of 2017, and transcribed (with bad jokes) by Gavin&nbsp;Weale.
 
 ### The Ten Commandments of Scaling
 
