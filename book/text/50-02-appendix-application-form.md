@@ -21,13 +21,15 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 
 ### Questions
 
-{:.form-questions}
+<div class="form-questions" markdown="1">
 1. Tell us about the world as you see it.\\
 *A description of the status quo and context in which you will be working*
 
 2. What change do you want to make in the world?\\
 *A description of what you want to change about the status quo, in the world, your personal vision for this area*
+{:.add-lines-1}
 
+{:start="3"}
 3. What do you believe has prevented this change to date?\\
 *Describe the innovations or questions you would like to explore during the fellowship year*
 
@@ -96,3 +98,4 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
     □ In the mainstream media\\
     □ At a conference\\
     □ Other
+</div>
