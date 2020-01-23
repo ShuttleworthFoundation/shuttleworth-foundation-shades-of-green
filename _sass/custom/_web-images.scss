@@ -6,6 +6,12 @@
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100vw;
+    & + p,
+    & + ol,
+    & + ul,
+    & + dl {
+        margin-top: $line-height-default;
+    }
     .feature-image-body {
         position: relative;
         .feature-images {
