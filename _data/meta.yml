@@ -5,7 +5,7 @@
 # Replace the values here with your project` information.
 project:
   # The name of the organisation or entity that owns this project
-  organisation: "Shuttleworth Foundation"
+  organisation: "The Shuttleworth Foundation"
   # A live web address for the organisation
   url: "http://shuttleworthfoundation.org"
   # The default contact email address
