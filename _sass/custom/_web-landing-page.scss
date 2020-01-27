@@ -127,3 +127,36 @@
         line-height: 1.4;
     }
 }
+
+// Green alternative
+.home.green {
+    #wrapper {
+        background-color: $green;
+    }
+    .landing-page-title strong {
+        color: white;
+    }
+    .landing-page-subtitle {
+        color: white;
+    }
+    .landing-page-buttons-read-online {
+        background-color: white;
+        color: $green;
+        &:hover {
+            background-color: $black-70;
+        }
+    }
+    .landing-page-buttons-secondary a {
+        color: white
+    }
+    .intro {
+        color: white;
+    }
+    #footer {
+        background-color: $black;
+        color: $black-30;
+        a {
+            color: $green;
+        }
+    }
+}
