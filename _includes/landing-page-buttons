@@ -1,10 +1,10 @@
 <div class="landing-page-buttons">
     <div class="landing-page-buttons-main">
-        <a href="{{ web-start-page }}" class="button landing-page-buttons-read-online">Read online</a>
+        <a href="{{ path-to-root-directory }}{{ include.read }}" class="button landing-page-buttons-read-online">Read online</a>
     </div>
     <div class="landing-page-buttons-secondary">
-        <a href="{{ path-to-root-directory }}downloads/{{ title | slugify }}.pdf" class="landing-page-buttons-pdf">PDF</a>
-        <a href="{{ path-to-root-directory }}downloads/{{ title | slugify }}.epub" class="landing-page-buttons-epub">EPUB</a>
-        <a href="{{ include.buy-link }}" class="landing-page-buttons-buy">Buy the book</a>
+        <a href="{{ path-to-root-directory }}{{ include.pdf }}" class="landing-page-buttons-pdf">PDF</a>
+        <a href="{{ path-to-root-directory }}{{ include.epub }}" class="landing-page-buttons-epub">EPUB</a>
+        <a href="{{ include.buy }}" class="landing-page-buttons-buy">Buy the book</a>
     </div>
 </div>

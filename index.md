@@ -11,7 +11,10 @@ style: home
 %}
 
 {% include landing-page-buttons
-   buy-link="https://www.amazon.com/Fifty-Shades-Green-Reimagining-Philanthropy/dp/1694497119"
+   read="book/text/0-4-about.html"
+   pdf="downloads/shades-of-green.pdf"
+   epub="downloads/shades-of-green.epub"
+   buy="https://www.amazon.com/Fifty-Shades-Green-Reimagining-Philanthropy/dp/1694497119"
 %}
 
 The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same.
