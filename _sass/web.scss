@@ -234,7 +234,7 @@ $web-reset-sequences: true !default; // This should stay last in the @import lis
 // Import font files (@font-face) for fonts you specify
 // ----------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,300i,400,400i|EB+Garamond:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:300,300i,400,400i,600|EB+Garamond:400,400i,700,700i&display=swap');
 
 // ---------------------
 // Theme modules
@@ -317,6 +317,7 @@ $web-reset-sequences: true !default; // This should stay last in the @import lis
 @import "custom/web-images";
 @import "custom/web-search";
 @import "custom/web-landing-page";
+@import "custom/web-footer";
 
 // Logic (if this then that)
 @import "partials/web-reset-sequences"; // This should stay last in the @import list

@@ -33,7 +33,7 @@
             letter-spacing: 0.05em;
             margin-bottom: 2em;
             margin-top: -2.5em;
-            text-shadow: 2px 2px 2px grey;
+            text-shadow: 1px 1px 1px grey;
             text-transform: uppercase;
             @media only screen and (min-width: $break-width-small) {
                 margin-bottom: 2em;
@@ -46,7 +46,7 @@
         .landing-page-title {
             font-family: $font-display-main;
             font-size: 350%;
-            font-weight: 300;
+            font-weight: 400;
             letter-spacing: 0.05em;
             line-height: 1;
             margin-bottom: 0.15em;
@@ -86,7 +86,11 @@
             [class^="landing-page-buttons-"] {
                 display: inline-block;
                 letter-spacing: 0.05em;
+                margin-right: 0.25em;
                 text-transform: uppercase;
+                &:last-child {
+                    margin-right: 0;
+                }
                 &::after {
                     content: "\2022";
                     color: $black-30;
@@ -111,6 +115,9 @@
             .landing-page-buttons-main {
                 padding-left: 1em;
                 padding-right: 1em;
+                a {
+                    margin-right: 0.5em;
+                }
             }
             .landing-page-buttons-secondary {
                 a {
