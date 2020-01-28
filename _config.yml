@@ -160,7 +160,9 @@ exclude:
 - /*/styles/app*
 # Books
 # - book
-# - samples
+# - book/text
+# - book/images
+# - book/fonts
 # - assets
 
 # Files to keep from the last Jekyll build
@@ -171,7 +173,9 @@ exclude:
 # The file path is relative to the _site directory.
 keep_files:
 # - book
-# - samples
+# - book/text
+# - book/images
+# - book/fonts
 # - assets
 
 # HTML compression

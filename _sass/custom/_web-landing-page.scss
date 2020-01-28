@@ -1,0 +1,169 @@
+.home {
+    .masthead {
+        display: none;
+    }
+    .landing-page-titles {
+        margin-bottom: 2em;
+        text-align: center;
+        .landing-page-image {
+            margin-left: -100em;
+            margin-right: -100em;
+            z-index: -1;
+            img {
+                display: block;
+                margin: 0 auto;
+                max-height: 100vw; // vw so this is square
+                object-fit: cover;
+                object-position: 0 80%;
+                width: $max-width-default; // fallback when vw isn't supported
+                width: 100vw;
+            }
+            @media only screen and (min-width: $break-width-small) {
+                img {
+                    max-height: 40vh;
+                    object-position: 0 90%;
+                }
+            }
+        }
+        .landing-page-creator {
+            color: white;
+            font-family: $font-display-main;
+            font-size: 140%;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 2em;
+            margin-top: -2.5em;
+            text-shadow: 1px 1px 1px grey;
+            text-transform: uppercase;
+            @media only screen and (min-width: $break-width-small) {
+                margin-bottom: 2em;
+                margin-top: -2em;
+            }
+            @media only screen and (min-width: $break-width-medium) {
+                text-align: left;
+            }
+        }
+        .landing-page-title {
+            font-family: $font-display-main;
+            font-size: 350%;
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            line-height: 1;
+            margin-bottom: 0.15em;
+            text-transform: uppercase;
+            strong {
+                color: $green;
+                font-weight: 600;
+            }
+            @media only screen and (min-width: $break-width-medium) {
+                font-size: 490%; // magic number for this font
+                text-align: left;
+            }
+        }
+        .landing-page-subtitle {
+            color: $black-50;
+            font-family: $font-display-main;
+            font-size: 140%;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            @media only screen and (min-width: $break-width-medium) {
+                text-align: right;
+            }
+        }
+    }
+    .landing-page-buttons {
+        font-family: $font-display-main;
+        margin-bottom: 1.5em;
+        text-align: center;
+        .landing-page-buttons-main {
+            margin-bottom: 0.75em;
+            .landing-page-buttons-read-online {
+                letter-spacing: 0.05em;
+                padding: 0.75em 1em;
+            }
+        }
+        .landing-page-buttons-secondary {
+            [class^="landing-page-buttons-"] {
+                display: inline-block;
+                letter-spacing: 0.05em;
+                margin-right: 0.25em;
+                text-transform: uppercase;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &::after {
+                    content: "\2022";
+                    color: $black-30;
+                    display: block;
+                    line-height: 0;
+                }
+                &:hover {
+                    &::after {
+                        color: $black-70;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        @media only screen and (min-width: $break-width-medium) {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            // Add space between flex items
+            margin-left: -1em;
+            margin-right: -1em;
+            .landing-page-buttons-main {
+                padding-left: 1em;
+                padding-right: 1em;
+                a {
+                    margin-right: 0.5em;
+                }
+            }
+            .landing-page-buttons-secondary {
+                a {
+                    padding-right: 0.5em;
+                }
+                &:last-child {
+                    padding-right: 1em;
+                }
+            }
+        }
+    }
+    .intro {
+        font-size: 125%;
+        line-height: 1.4;
+    }
+}
+
+// Green alternative
+.home.green {
+    #wrapper {
+        background-color: $green;
+    }
+    .landing-page-title strong {
+        color: white;
+    }
+    .landing-page-subtitle {
+        color: white;
+    }
+    .landing-page-buttons-read-online {
+        background-color: white;
+        color: $green;
+        &:hover {
+            background-color: $black-70;
+        }
+    }
+    .landing-page-buttons-secondary a {
+        color: white
+    }
+    .intro {
+        color: white;
+    }
+    #footer {
+        background-color: $black;
+        color: $black-30;
+        a {
+            color: $green;
+        }
+    }
+}
