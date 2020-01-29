@@ -8,7 +8,7 @@ style: copyright-page
 
 {% include metadata %}
 
-# Copyright and license
+# Copyright and licence
 {:.non-printing}
 
 {{ title }}

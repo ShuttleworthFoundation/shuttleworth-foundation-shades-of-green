@@ -42,7 +42,7 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 
 7. Does your idea/project have a name? □&nbsp;Yes □&nbsp;No
 
-8. Have you started implementation of the idea? □&nbsp;Yes □&nbsp;No
+8. Have you started implementing the idea? □&nbsp;Yes □&nbsp;No
 
 9. How have you funded your initiative in the past?
 
@@ -55,14 +55,14 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 
 10. Who are your current or potential key partners?
 
-11. Do you intend to implement the idea as a for profit or not for profit initiative?
+11. Do you intend to implement the idea as a for-profit or not-for-profit initiative?
 
     □ For profit\\
     □ Not for profit\\
     □ Haven’t thought about it…
 
 12. Where will you be based during the fellowship?\\
-*Base country, Base city*
+*Base country, base city*
 
 13. Where will you implement your idea?
 
@@ -74,7 +74,7 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 
 15. Does the idea/project have an online presence? □&nbsp;Yes □&nbsp;No
 
-16. Upload Resume\\
+16. Upload résumé\\
 *PDF file is preferable*
 
 17. Link to your video\\
@@ -93,7 +93,7 @@ Deliberately, the form uses clean, simple questions that carve a narrative and a
 21. How did you hear about the Shuttleworth Foundation Fellowship Program?
 
     □ Friend\\
-    □ Current/Past Fellow\\
+    □ Current/Past fellow\\
     □ On the web\\
     □ In the mainstream media\\
     □ At a conference\\
