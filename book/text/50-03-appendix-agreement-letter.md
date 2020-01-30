@@ -31,7 +31,7 @@ The agreement letter is what fellows receive just after we let them know they ha
 >
 > As a Shuttleworth Fellow, you will be creating intellectual property by writing, gathering data, contributing to designs and so on. The intellectual property you create will belong to you (or your organisation if you so choose) to ensure you have the power to continue to use, share and evolve it. To help you get your ideas out into the world, and realise the potential value of openness, you will release everything as an open resource. Resources are open when they are available for revision, translation, improvement and sharing, under open licences, open standards and in open formats, free from technical protection measures.
 >
-> We understand that there are a number of legitimate reasons why certain resources may not be made open. We will consider instances of privacy, confidentiality, security and utility, which may preclude certain documents or information from being licenced in this way, but our default is always open.
+> We understand that there are a number of legitimate reasons why certain resources may not be made open. We will consider instances of privacy, confidentiality, security and utility, which may preclude certain documents or information from being licensed in this way, but our default is always open.
 >
 > *Grant*    
 > You will receive a grant, in four equal instalments, to devote your time and energy to your fellowship. You will be responsible for managing your own time and efforts, and complying with the relevant tax laws in your jurisdiction.
