@@ -168,7 +168,7 @@ works:
                 id: "16-gathering-together"
               - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
-                id: "17-once-a-fellow-always-a-fellow"
+                id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
             id: "5-funding-the-future"
             children:
@@ -312,7 +312,7 @@ works:
                 id: "16-gathering-together"
               - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
-                id: "17-once-a-fellow-always-a-fellow"
+                id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
             id: "5-funding-the-future"
             children:
@@ -413,7 +413,7 @@ works:
                 id: "16-gathering-together"
               - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
-                id: "17-once-a-fellow-always-a-fellow"
+                id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
             id: "5-funding-the-future"
             children:
@@ -562,7 +562,7 @@ works:
                 id: "16-gathering-together"
               - label: "**17** Once a fellow, always a fellow"
                 file: "04-17"
-                id: "17-once-a-fellow-always-a-fellow"
+                id: "17-once-a-fellow-always-afellow"
           - label: "Funding the future"
             id: "5-funding-the-future"
             children:
