@@ -14,6 +14,7 @@ The history of open knowledge resource organisations – from open software thro
 {:.tighten-15}
 
 Such experience goes against what many founders start out trying to achieve. They fund something to be open, only to turn around after the acquittals have been sent to find the project has now sold its intellectual property to someone else.
+{:.tighten-15}
 
 This raises an important question: how do we ensure that the founder’s commitment to openness and society endures when circumstances change? The Shuttleworth Foundation solution is the Open Lock.
 
