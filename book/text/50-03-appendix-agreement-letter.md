@@ -3,12 +3,14 @@ title: "The agreement letter"
 ---
 
 ## **ii** The agreement letter
+{:.add-lines-2}
 
 The agreement letter is what fellows receive just after we let them know they have been selected. As far as possible, the letter uses clean, straightforward language, and sets out the commitments and values upon which the fellowship will be based.
+{:.add-lines-1}
 
 > Dear New Fellow,
 >
-> This agreement sets out how we will work together over the coming year. Once you’re happy with this document, please confirm you wish to proceed, and we will load it into our digital signature management system for signing. At that point, it will become effective as our mutual agreement.
+> This agreement sets out how we will work together over the coming year. Once you’re happy with this document, please confirm you wish to pro&shy;ceed, and we will load it into our digital signature management system for signing. At that point, it will become effective as our mutual agree&shy;ment.
 >
 > Included in this agreement is a specification sheet, which details the data pertaining to your specific fellowship, a fellowship overview, which describes what we hope to achieve together, and our broad philosophy and theory of change, which outlines how we behave in the world. Also included are the governing provisions that will protect both of us going forward.
 >
@@ -43,7 +45,7 @@ The agreement letter is what fellows receive just after we let them know they ha
 > *Success*    
 > Once you have joined this fellowship, you will always be considered a Shuttleworth Fellow. You will be part of our community and will have a voice. We hope you will grow and learn with us, and other Shuttleworth Fellows, to build a network of comrades who understand that the world should, and can, be better by being open.
 >
-> Measuring your impact in the world will be hard. While many models for measuring impact exist, in truth most of them only evaluate implementation, which is bound to be complex, will not adhere to your implementation timelines and will often extend way beyond your control. Instead, we think of success in terms of your on-going contribution to change.
+> Measuring your impact in the world will be hard. While many models for measuring impact exist, in truth most of them only evaluate implement&shy;ation, which is bound to be complex, will not adhere to your implement&shy;ation timelines and will often extend way beyond your control. Instead, we think of success in terms of your on-going contribution to change.
 >
 > For us, the highest level of success at the end of a fellowship year is that we know more than we did at the beginning, and that that knowledge has allowed you, us and others to shift thinking. This can only happen through experimentation and iteration, and when that knowledge is available to others to learn from and build upon. In the long term, we hope that you go on to influence positive social change in your field way beyond the duration of this year.
 >
