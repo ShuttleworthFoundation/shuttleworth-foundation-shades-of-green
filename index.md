@@ -6,14 +6,14 @@ style: home
 
 {% include landing-page-titles
    creator = project-organisation
-   title = "Shades of **green**"
+   title = "50 shades of **green**"
    subtitle = "Reimagining philanthropy"
 %}
 
 {% include landing-page-buttons
    read="book/text/0-4-about.html"
-   pdf="downloads/shades-of-green.pdf"
-   epub="downloads/shades-of-green.epub"
+   pdf="downloads/fifty-shades-of-green.pdf"
+   epub="downloads/fifty-shades-of-green.epub"
    buy="https://www.amazon.com/Fifty-Shades-Green-Reimagining-Philanthropy/dp/1694497119"
 %}
 
