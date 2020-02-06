@@ -8,7 +8,7 @@ style: title-page page-1
 The Shuttleworth Foundation
 {:.title-page-author}
 
-Shades of&#x202f;**Green**
+50 Shades of&#x202f;**Green**
 {:.title-page-title}
 
 {% comment %}
