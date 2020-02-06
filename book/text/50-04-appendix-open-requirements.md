@@ -22,7 +22,7 @@ You must make knowledge resources open as defined in the [Open Definition](http:
 
 ### Free and open source software
 
-You must distribute software under the [General Public License 3.0](http://www.gnu.org/licenses/gpl){:.show-url} or another licence listed by the Open Source Initiative as complying with the [Open Source Definition](http://opensource.org/osd){:.show-url} but you must license software that functions primarily as network server software under the [GNU Affero General Public License](www.gnu.org/licenses/agpl.html){:.show-url}.
+You must distribute software under the [General Public License 3.0](http://www.gnu.org/licenses/gpl){:.show-url} or another licence listed by the Open Source Initiative as complying with the [Open Source Definition](http://opensource.org/osd){:.show-url} but you must license software that functions primarily as network server software under the [GNU Affero General Public License](http://www.gnu.org/licenses/agpl.html){:.show-url}.
 
 ### Open hardware
 

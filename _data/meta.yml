@@ -11,7 +11,7 @@ project:
   # The default contact email address
   email: "info@shuttleworthfoundation.org"
   # The name of the project of books in this folder.
-  name: "Shades of green"
+  name: "50 Shades of Green"
   # A one-liner about this project. Useful for Open Graph metadata.
   description: "The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same."
   # The logo of the organisation, saved web-ready in /assets
@@ -39,7 +39,7 @@ project:
 
 works:
   - directory: "book"
-    title: "Shades of green"
+    title: "50 Shades of Green"
     subtitle: "Reimagining philanthropy"
     creator: "The Shuttleworth Foundation" # E.g. the author
     contributor: "Adam Hyde, Chris McGivern, Helen Turvey, Jason Hudson, Jesse Von Doom, Karien Bezuidenhout, Kathi Fletcher, Sean Bonner" # E.g. other contributors
