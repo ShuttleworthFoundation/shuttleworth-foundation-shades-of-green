@@ -6,7 +6,7 @@ style: home
 
 {% include landing-page-titles
    creator = project-organisation
-   title = "50 shades of **green**"
+   title = "50 Shades of **Green**"
    subtitle = "Reimagining philanthropy"
 %}
 

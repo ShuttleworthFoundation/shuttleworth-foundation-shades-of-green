@@ -11,7 +11,7 @@ project:
   # The default contact email address
   email: "info@shuttleworthfoundation.org"
   # The name of the project of books in this folder.
-  name: "50 shades of green"
+  name: "50 Shades of Green"
   # A one-liner about this project. Useful for Open Graph metadata.
   description: "The Shuttleworth Foundation funds those who are not only brave enough to reimagine the future, but also brave enough to try. And we challenge ourselves to do the same."
   # The logo of the organisation, saved web-ready in /assets
